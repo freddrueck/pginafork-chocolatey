@@ -1,7 +1,6 @@
-﻿$version    = "3.9.9.12"
-$ErrorActionPreference = 'Stop'; # stop on all errors
+﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = "https://github.com/MutonUfoAI/pgina/releases/download/" + "$version" + "/pGinaSetup-" + "$version.exe" # download url, HTTPS preferred
+$url        = "https://github.com/MutonUfoAI/pgina/releases/download/" + "$ChocolateyPackageVersion" + "/pGinaSetup-" + "$ChocolateyPackageVersion.exe" # download url, HTTPS preferred
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName

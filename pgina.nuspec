@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>pgina-fork</id>
+    <id>pginafork</id>
     <title>pGina fork</title>
     <version>3.9.9.12</version>
 
-    <packageSourceUrl>https://github.com/natpowning/pgina-chocolatey</packageSourceUrl>
+    <packageSourceUrl>https://github.com/freddrueck//pginafork-chocolatey</packageSourceUrl>
 
     <authors>Nate Yocom, David Wolff, Hans Wurst</authors>
     <owners>Fred Drueck</owners>
@@ -17,10 +17,10 @@
     <docsUrl>https://github.com/MutonUfoAI/pgina/pgina/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/MutonUfoAI/pgina/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/natpowning/pgina-chocolatey/dc5a638ce52348c6e0d67300062bf0b76b2c194e/pginalogo.png</iconUrl>
-    <releaseNotes>[pGina CHANGELOG](https://github.com/pgina/pgina/blob/master/CHANGELOG.md)</releaseNotes>
+    <releaseNotes>[pGina CHANGELOG](https://github.com/MutonUfoAI/pgina/blob/master/CHANGELOG.md)</releaseNotes>
 
     <tags>pgina</tags>
-    <summary>pGina Authentication Provider</summary>
+    <summary>pGina Authentication Provider (MutonUfoAI fork)</summary>
     <description>This replaces the default windows authenticator using various plugins (LDAP/Radius/etc.) for credential verification.</description>
   </metadata>
 
