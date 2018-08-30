@@ -1,16 +1,16 @@
-﻿
+﻿$version    = "3.9.9.12"
 $ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/pgina/pgina/releases/download/v3.1.8.0/pGinaSetup-3.1.8.0.exe' # download url, HTTPS preferred
+$url        = "https://github.com/MutonUfoAI/pgina/releases/download/" + "$version" + "/pGinaSetup-" + "$version.exe" # download url, HTTPS preferred
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
-  softwareName  = 'pGina*'
+  softwareName  = 'pGina Fork'
+  checksum      = 'a36ca9364eccc75c1cd96d2e54e4ee91ea97984e7312cf33a640ac00d002169f'
 
-  checksum      = 'd9d229ab7ee495f2ae6670d8d19136721110cb7825a355ee21b397cf6254f7a7'
   checksumType  = 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
