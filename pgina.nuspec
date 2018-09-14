@@ -11,12 +11,12 @@
     <owners>Fred Drueck</owners>
 
     <projectUrl>http://mutonufoai.github.io</projectUrl>
-    <licenseUrl>https://github.com/pgina/pgina/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/MutonUfoAI/pgina/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/MutonUfoAI/pgina</projectSourceUrl>
     <docsUrl>https://github.com/MutonUfoAI/pgina/pgina/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/MutonUfoAI/pgina/issues</bugTrackerUrl>
-    <iconUrl>https://cdn.rawgit.com/natpowning/pgina-chocolatey/dc5a638ce52348c6e0d67300062bf0b76b2c194e/pginalogo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/freddrueck/pginafork-chocolatey/b94022f451afadb360a608584fca837f4d505d38/pginalogo.png</iconUrl>
     <releaseNotes>[pGina CHANGELOG](https://github.com/MutonUfoAI/pgina/blob/master/CHANGELOG.md)</releaseNotes>
 
     <tags>pgina</tags>
