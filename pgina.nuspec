@@ -10,11 +10,11 @@
     <authors>Nate Yocom, David Wolff, Hans Wurst</authors>
     <owners>Fred Drueck</owners>
 
-    <projectUrl>http://mutonufoai.github.io</projectUrl>
+    <projectUrl>http://mutonufoai.github.io/pgina</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/MutonUfoAI/pgina/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/MutonUfoAI/pgina</projectSourceUrl>
-    <docsUrl>https://github.com/MutonUfoAI/pgina/pgina/wiki</docsUrl>
+    <docsUrl>http://mutonufoai.github.io/pgina/documentation.html</docsUrl>
     <bugTrackerUrl>https://github.com/MutonUfoAI/pgina/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/freddrueck/pginafork-chocolatey/b94022f451afadb360a608584fca837f4d505d38/pginalogo.png</iconUrl>
     <releaseNotes>[pGina CHANGELOG](https://github.com/MutonUfoAI/pgina/blob/master/CHANGELOG.md)</releaseNotes>
